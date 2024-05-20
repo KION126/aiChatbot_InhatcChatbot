@@ -1,7 +1,12 @@
-{
+﻿{
     "type": "AdaptiveCard",
     "version": "1.2",
     "body": [
+        {
+            "type": "Image",
+            "url": "https://ifh.cc/g/XDb6wp.png",
+            "horizontalAlignment": "Center"
+        },
         {
             "type": "Container",
             "items": [
@@ -17,8 +22,11 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 1",
-                                            "data": { "id": "1" }
+                                            "title": "학교소개",
+                                            "data": {
+                                                "id": "introSchool"
+                                            },
+                                            "iconUrl": "https://ifh.cc/g/CSXk7Y.png"
                                         }
                                     ]
                                 }
@@ -33,8 +41,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 2",
-                                            "data": { "id": "2" }
+                                            "title": "학과소개",
+                                            "data": {
+                                                "id": "introDept"
+                                            }
                                         }
                                     ]
                                 }
@@ -49,8 +59,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 3",
-                                            "data": { "id": "3" }
+                                            "title": "학사일정",
+                                            "data": {
+                                                "id": "schedule"
+                                            }
                                         }
                                     ]
                                 }
@@ -70,8 +82,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 4",
-                                            "data": { "id": "4" }
+                                            "title": "교내연락처",
+                                            "data": {
+                                                "id": "contactInfo"
+                                            }
                                         }
                                     ]
                                 }
@@ -86,8 +100,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 5",
-                                            "data": { "id": "5" }
+                                            "title": "캠퍼스맵",
+                                            "data": {
+                                                "id": "campusMap"
+                                            }
                                         }
                                     ]
                                 }
@@ -102,8 +118,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 6",
-                                            "data": { "id": "6" }
+                                            "title": "식당",
+                                            "data": {
+                                                "id": "restaurant"
+                                            }
                                         }
                                     ]
                                 }
@@ -123,8 +141,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 7",
-                                            "data": { "id": "7" }
+                                            "title": "공지사항",
+                                            "data": {
+                                                "id": "notice"
+                                            }
                                         }
                                     ]
                                 }
@@ -139,8 +159,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 8",
-                                            "data": { "id": "8" }
+                                            "title": "수강신청",
+                                            "data": {
+                                                "id": "registration"
+                                            }
                                         }
                                     ]
                                 }
@@ -155,8 +177,10 @@
                                     "actions": [
                                         {
                                             "type": "Action.Submit",
-                                            "title": "Button 9",
-                                            "data": { "id": "9" }
+                                            "title": "SNS",
+                                            "data": {
+                                                "id": "sns"
+                                            }
                                         }
                                     ]
                                 }
