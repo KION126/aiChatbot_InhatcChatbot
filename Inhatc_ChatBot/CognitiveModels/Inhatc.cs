@@ -20,6 +20,8 @@ namespace Inhatc_ChatBot.CognitiveModels
             인사말,
             학과소개,
             학교소개,
+            전체학과소개,
+            학사일정,
             None
         }
 

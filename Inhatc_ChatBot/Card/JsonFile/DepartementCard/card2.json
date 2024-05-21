@@ -1,0 +1,53 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "IT융합공학부",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "전자공학과",
+              "url": "https://ee.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "전기공학과",
+              "url": "https://er.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "정보통신공학과",
+              "url": "https://inc.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "컴퓨터정보공학과",
+              "url": "https://cs.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "컴퓨터시스템공학과",
+              "url": "https://cse.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "디지털마케팅공학과",
+              "url": "https://dgmarketing.inhatc.ac.kr/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
