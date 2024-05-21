@@ -1,0 +1,150 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://ifh.cc/g/vbY7CW.png",
+      "horizontalAlignment": "Left",
+      "size": "Small"
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "인하공업전문대학교 소개",
+          "wrap": true,
+          "weight": "Bolder",
+          "size": "Large"
+        }
+      ]
+    },
+    {
+      "type": "ColumnSet",
+      "columns": [
+        {
+          "type": "Column",
+          "width": "stretch",
+          "items": [
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "교육이념",
+                  "weight": "Bolder",
+                  "size": "Medium",
+                  "wrap": true
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "진실하고 자주적인 지성인, 근면하고 창의적인 직업인, 유능하고 봉사적인 사회인 양성 3대 교육목표",
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "verticalContentAlignment": "Bottom",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.OpenUrl",
+                      "title": "교육이념",
+                      "url": "https://www.inhatc.ac.kr/kr/162/subview.do"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "separator": true,
+          "items": [
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "발전계획",
+                  "weight": "Bolder",
+                  "size": "Medium",
+                  "wrap": true
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "창의와 혁신으로 미래 고등직업교육을 선도하는 대학 \n \n",
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "verticalContentAlignment": "Bottom",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.OpenUrl",
+                      "title": "발전계획",
+                      "url": "https://www.inhatc.ac.kr/kr/163/subview.do"
+                    }
+                  ]
+                }
+              ],
+              "height": "stretch"
+            }
+          ]
+        },
+        {
+          "type": "Column",
+          "width": "stretch",
+          "separator": true,
+          "items": [
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "총장인사말",
+                  "weight": "Bolder",
+                  "size": "Medium",
+                  "wrap": true
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "현장중심ㆍ창의인재ㆍ글로벌 선도대학",
+                  "wrap": true
+                }
+              ]
+            },
+            {
+              "type": "Container",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.OpenUrl",
+                      "title": "총장인사말",
+                      "url": "https://www.inhatc.ac.kr/kr/157/subview.dor"
+                    }
+                  ]
+                }
+              ],
+              "verticalContentAlignment": "Bottom",
+              "height": "stretch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

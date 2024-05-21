@@ -1,0 +1,58 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "서비스경영학부",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "항공운항과",
+              "url": "https://cbncrew.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "항공경영학과",
+              "url": "https://asm.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "관광경영학과",
+              "url": "https://tour.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "경영비서학과",
+              "url": "https://secretary.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "호텔경영학과",
+              "url": "https://hotel.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "물류시스템학과",
+              "url": "https://logis.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "스포츠헬스케어학과",
+              "url": "https://sports.inhatc.ac.kr/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,5 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT License.
-
-using System;
+﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Inhatc_ChatBot.Clu;
@@ -10,6 +8,7 @@ using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
 using Microsoft.Extensions.Logging;
+using Inhatc_ChatBot.Card;
 
 namespace Inhatc_ChatBot.Dialogs
 {
@@ -17,23 +16,22 @@ namespace Inhatc_ChatBot.Dialogs
     {
         private readonly InhatcRecognizer _cluRecognizer;
         protected readonly ILogger Logger;
+        private readonly List<DepartmentInfo> _departments;
 
-        // Dependency injection uses this constructor to instantiate MainDialog
         public MainDialog(InhatcRecognizer cluRecognizer, ILogger<MainDialog> logger)
             : base(nameof(MainDialog))
         {
             _cluRecognizer = cluRecognizer;
             Logger = logger;
+            _departments = DepartmentInfo.LoadDepartments("Card/JsonFile/Departments.json");
 
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
             {
                 IntroStepAsync,
                 ActStepAsync,
-
             }));
 
-            // The initial child Dialog to run.
             InitialDialogId = nameof(WaterfallDialog);
         }
 
@@ -47,35 +45,67 @@ namespace Inhatc_ChatBot.Dialogs
                 return await stepContext.NextAsync(null, cancellationToken);
             }
 
-            // Use the text provided in FinalStepAsync or the default if it is the first time.
             return await stepContext.NextAsync(null, cancellationToken);
         }
 
         private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-
-
-            // Call CLU and gather any potential booking details. (Note the TurnContext has the response to the prompt.)
             var cluResult = await _cluRecognizer.RecognizeAsync<Inhatc>(stepContext.Context, cancellationToken);
             switch (cluResult.GetTopIntent().intent)
             {
-                case Inhatc.Intent.Hi:
-                    var HiMessageText = $"안녕하세요 테스트 성공입니다.";
-                    var HiMessage = MessageFactory.Text(HiMessageText,
-                        HiMessageText, InputHints.IgnoringInput);
-                    await stepContext.Context.SendActivityAsync(HiMessage, cancellationToken);
-
+                case Inhatc.Intent.인사말:
+                    var helloCard = ConverterJson.makeCard("MainCard");
+                    await stepContext.Context.SendActivityAsync(helloCard, cancellationToken);
                     break;
 
-                case Inhatc.Intent.Food:
-                    var HiMessageText1 = $"안녕하세요 테asdasdad스트 성공입니다.";
-                    var HiMessage1 = MessageFactory.Text(HiMessageText1,
-                        HiMessageText1, InputHints.IgnoringInput);
-                    await stepContext.Context.SendActivityAsync(HiMessage1, cancellationToken);
+                case Inhatc.Intent.학교소개:
+                    var IntroductionCard = ConverterJson.makeCard("IntroductionCard");
+                    await stepContext.Context.SendActivityAsync(IntroductionCard, cancellationToken);
+                    break;
+
+                case Inhatc.Intent.전체학과소개:
+                    var AllEopCard = ConverterJson.makeCard("AllDepartmentCard");
+                    await stepContext.Context.SendActivityAsync(AllEopCard, cancellationToken);
+
+                    var depIntroCards = ConverterJson.MakeAllDepartmentCards();
+                    var message = MessageFactory.Carousel(depIntroCards);
+                    await stepContext.Context.SendActivityAsync(message, cancellationToken);
+                    break;
+
+                case Inhatc.Intent.학과소개:
+                    var 학과Entity = cluResult.Entities.GetDepartment();
+
+                    if (!string.IsNullOrEmpty(학과Entity))
+                    {
+                        var normalizedEntity = 학과Entity.Trim().ToLower();
+                        var department = _departments.FirstOrDefault(d =>
+                            d.Name.Trim().ToLower() == normalizedEntity ||
+                            d.Aliases.Any(alias => alias.Trim().ToLower() == normalizedEntity));
+
+                        if (department != null)
+                        {
+                            var cardMessage = ConverterJson.MakeDepartmentCard(department);
+                            await stepContext.Context.SendActivityAsync(cardMessage, cancellationToken);
+                        }
+                        else
+                        {
+                            var DeptNotFoundCard = ConverterJson.makeCard("DepartmentNotFoundCard");
+                            await stepContext.Context.SendActivityAsync(DeptNotFoundCard, cancellationToken);
+                        }
+                    }
+                    else
+                    {
+                        var 학과소개Mess = MessageFactory.Text("학과를 인식하지 못했습니다. 다시 시도해주세요.", inputHint: InputHints.IgnoringInput);
+                        await stepContext.Context.SendActivityAsync(학과소개Mess, cancellationToken);
+                    }
+                    break;
+
+                case Inhatc.Intent.학사일정:
+                    var ASCard = ConverterJson.makeCard("AcademicSchedule");
+                    await stepContext.Context.SendActivityAsync(ASCard, cancellationToken);
                     break;
 
                 default:
-                    // Catch all for unhandled intents
                     var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {cluResult.GetTopIntent().intent})";
                     var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
                     await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);

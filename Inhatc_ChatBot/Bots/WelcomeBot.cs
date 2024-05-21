@@ -25,7 +25,7 @@ namespace Inhatc_ChatBot.Bots
 
         protected override async Task OnMembersAddedAsync(IList<ChannelAccount> membersAdded, ITurnContext<IConversationUpdateActivity> turnContext, CancellationToken cancellationToken)
         {
-            var reply = MainCard.makeMainCard();
+            var reply = ConverterJson.makeCard("MainCard");
             await turnContext.SendActivityAsync(reply, cancellationToken);
         }
     }

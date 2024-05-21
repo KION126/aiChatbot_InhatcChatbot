@@ -1,0 +1,26 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "해당 학과를 찾을 수 없습니다.  \n 인하공업전문대학교의 전체 학과를 보시려면 아래 버튼을 클릭하세요👇",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "인하공업전문대학교 전체 학과소개 사이트",
+              "url": "https://ipsi.inhatc.ac.kr/ipsi/579/subview.do"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

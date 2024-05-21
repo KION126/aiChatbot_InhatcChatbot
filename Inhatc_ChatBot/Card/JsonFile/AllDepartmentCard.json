@@ -1,0 +1,33 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "인하공업전문대학교 전체 학부",
+          "wrap": true,
+          "weight": "Bolder",
+          "size": "Large"
+        },
+        {
+          "type": "TextBlock",
+          "text": "하단 카드를 옆으로 넘겨가며 각 학부을 확인해보세요.  \n정보를 더 알고싶은 학과 버튼을 누르면 학과 홈페이지로 바로 이동합니다! 홈페이지에서 학과별 자세한 정보와 공지사항을 확인해보세요!",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "전체 학과 소개 보러가기",
+              "url": "https://ipsi.inhatc.ac.kr/ipsi/579/subview.do"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

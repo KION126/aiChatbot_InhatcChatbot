@@ -6,11 +6,41 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Card\NewFolder\**" />
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="NewFolder\**" />
+    <Content Remove="Card\NewFolder\**" />
+    <Content Remove="NewFolder1\**" />
+    <Content Remove="NewFolder\**" />
+    <EmbeddedResource Remove="Card\NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="Card\NewFolder\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Card\JsonFile\AcademicSchedule.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Card\JsonFile\AcademicSchedule.json" />
+    <None Include="Card\JsonFile\DepartementCard\card2.json" />
+    <None Include="Card\JsonFile\DepartementCard\card1.json" />
+    <None Include="Card\JsonFile\DepartementCard\card5.json" />
+    <None Include="Card\JsonFile\DepartementCard\card4.json" />
+    <None Include="Card\JsonFile\DepartementCard\card3.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Azure.AI.Language.Conversations" Version="1.1.0" />
     <PackageReference Include="Azure.Core" Version="1.39.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.61" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.1" />
     <PackageReference Include="Microsoft.Bot.Builder.Dialogs" Version="4.22.0" />
     <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.22.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.21.0" />
   </ItemGroup>
 
     <ItemGroup>

@@ -1,0 +1,43 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "건축디자인학부",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "건축학과",
+              "url": "https://archi.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "실내건축학과",
+              "url": "https://interior.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "산업디자인학과",
+              "url": "https://industrydesign.inhatc.ac.kr/"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "패션디자인학과",
+              "url": "https://fashion.inhatc.ac.kr/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "학사일정",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "학사일정 페이지에서 등록, 수강, 시험, 휴복학, 졸업 등 연간 학사 일정을 확인할 수 있어요.📆  \n아래버튼을 눌러 바로 확인하세요.😉",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "학사일정 보러기가기",
+              "url": "https://www.inhatc.ac.kr/kr/123/subview.do"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

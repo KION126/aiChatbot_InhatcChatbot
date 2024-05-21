@@ -51,7 +51,7 @@ namespace Inhatc_ChatBot
 
             // The MainDialog that will be run by the bot.
             services.AddSingleton<MainDialog>();
-    
+
             // Create the bot as a transient. In this case the ASP Controller is expecting an IBot.
             services.AddTransient<IBot, EchoBot<MainDialog>>();
 
