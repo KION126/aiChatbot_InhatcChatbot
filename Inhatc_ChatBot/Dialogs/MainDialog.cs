@@ -4,6 +4,7 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Inhatc_ChatBot.Card;
 using Inhatc_ChatBot.Clu;
 using Inhatc_ChatBot.CognitiveModels;
 using Microsoft.Bot.Builder;
@@ -57,21 +58,42 @@ namespace Inhatc_ChatBot.Dialogs
 
             // Call CLU and gather any potential booking details. (Note the TurnContext has the response to the prompt.)
             var cluResult = await _cluRecognizer.RecognizeAsync<Inhatc>(stepContext.Context, cancellationToken);
+            string intentMess;
             switch (cluResult.GetTopIntent().intent)
             {
-                case Inhatc.Intent.Hi:
-                    var HiMessageText = $"안녕하세요 테스트 성공입니다.";
-                    var HiMessage = MessageFactory.Text(HiMessageText,
-                        HiMessageText, InputHints.IgnoringInput);
-                    await stepContext.Context.SendActivityAsync(HiMessage, cancellationToken);
+                case Inhatc.Intent.인사말:
+                    var reply = MainCard.makeMainCard();
+                    await stepContext.Context.SendActivityAsync(reply, cancellationToken);
 
                     break;
 
-                case Inhatc.Intent.Food:
-                    var HiMessageText1 = $"안녕하세요 테asdasdad스트 성공입니다.";
-                    var HiMessage1 = MessageFactory.Text(HiMessageText1,
-                        HiMessageText1, InputHints.IgnoringInput);
-                    await stepContext.Context.SendActivityAsync(HiMessage1, cancellationToken);
+                case Inhatc.Intent.학교소개:
+                    intentMess = $"학교소개 Intent";
+                    var 학교소개Mess = MessageFactory.Text(intentMess,
+                        intentMess, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(학교소개Mess, cancellationToken);
+                    break;
+
+                case Inhatc.Intent.학과소개:
+                    intentMess = $"학과소개 Intent";
+                    var 학과Entity = cluResult.Entities.GetDepartment();
+
+                    if (!string.IsNullOrEmpty(학과Entity))
+                    {
+                        intentMess = $"{학과Entity}에 대한 정보를 제공합니다.";
+                    }
+                    else
+                    {
+                        intentMess = "학과를 인식하지 못했습니다. 다시 시도해주세요.";
+                    }
+                    var 학과소개Mess = MessageFactory.Text(intentMess, intentMess, InputHints.IgnoringInput);
+                    await stepContext.Context.SendActivityAsync(학과소개Mess, cancellationToken);
+                    break;
+
+                    var 학과소개Messt = MessageFactory.Text(intentMess,
+                        intentMess, InputHints.IgnoringInput);
+
+                    await stepContext.Context.SendActivityAsync(학과소개Messt, cancellationToken);
                     break;
 
                 default:

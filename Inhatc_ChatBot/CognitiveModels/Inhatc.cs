@@ -17,8 +17,9 @@ namespace Inhatc_ChatBot.CognitiveModels
     {
         public enum Intent
         {
-            Hi,
-            Food,
+            인사말,
+            학과소개,
+            학교소개,
             None
         }
 
@@ -63,6 +64,10 @@ namespace Inhatc_ChatBot.CognitiveModels
         public class CluEntities
         {
             public CluEntity[] Entities;
+
+            public CluEntity[] GetDepartmentList() => Entities.Where(e => e.Category == "학과").ToArray();
+
+            public string GetDepartment() => GetDepartmentList().FirstOrDefault()?.Text;
 
             public CluEntity[] GetFromCityList() => Entities.Where(e => e.Category == "fromCity").ToArray();
 

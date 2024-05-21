@@ -1,194 +1,209 @@
 ﻿{
     "type": "AdaptiveCard",
     "version": "1.2",
-    "body": [
+  "body": [
+    {
+      "type": "Image",
+      "url": "https://ifh.cc/g/XDb6wp.png",
+      "horizontalAlignment": "Center"
+    },
+    {
+      "type": "Container",
+      "items": [
         {
-            "type": "Image",
-            "url": "https://ifh.cc/g/XDb6wp.png",
-            "horizontalAlignment": "Center"
+          "type": "TextBlock",
+          "text": "안녕하세요! 저는 인하공업전문대학교 챗봇 알트예요!😊",
+          "wrap": true
         },
         {
-            "type": "Container",
-            "items": [
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "학교소개",
-                                            "data": {
-                                                "id": "introSchool"
-                                            },
-                                            "iconUrl": "https://ifh.cc/g/CSXk7Y.png"
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "학과소개",
-                                            "data": {
-                                                "id": "introDept"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "학사일정",
-                                            "data": {
-                                                "id": "schedule"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "교내연락처",
-                                            "data": {
-                                                "id": "contactInfo"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "캠퍼스맵",
-                                            "data": {
-                                                "id": "campusMap"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "식당",
-                                            "data": {
-                                                "id": "restaurant"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "ColumnSet",
-                    "columns": [
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "공지사항",
-                                            "data": {
-                                                "id": "notice"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "수강신청",
-                                            "data": {
-                                                "id": "registration"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "type": "Column",
-                            "width": "stretch",
-                            "items": [
-                                {
-                                    "type": "ActionSet",
-                                    "actions": [
-                                        {
-                                            "type": "Action.Submit",
-                                            "title": "SNS",
-                                            "data": {
-                                                "id": "sns"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
+          "type": "TextBlock",
+          "text": "학교소개, 학사안내, 학생지원 등  \n학교생활에서 궁금한 점을 질문해주시면 안내해드릴게요!",
+          "wrap": true
         }
-    ]
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "학교소개",
+                      "data": {
+                        "id": "introSchool"
+                      },
+                      "iconUrl": "https://ifh.cc/g/CSXk7Y.png"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "학과소개",
+                      "data": {
+                        "id": "introDept"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "학사일정",
+                      "data": {
+                        "id": "schedule"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "교내연락처",
+                      "data": {
+                        "id": "contactInfo"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "캠퍼스맵",
+                      "data": {
+                        "id": "campusMap"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "식당",
+                      "data": {
+                        "id": "restaurant"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ColumnSet",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "공지사항",
+                      "data": {
+                        "id": "notice"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "수강신청",
+                      "data": {
+                        "id": "registration"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "ActionSet",
+                  "actions": [
+                    {
+                      "type": "Action.Submit",
+                      "title": "SNS",
+                      "data": {
+                        "id": "sns"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
