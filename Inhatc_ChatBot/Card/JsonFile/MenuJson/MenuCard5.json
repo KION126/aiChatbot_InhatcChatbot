@@ -1,6 +1,9 @@
 {
   "type": "AdaptiveCard",
   "version": "1.2",
+  "msteams": {
+    "witdh": "full"
+  },
   "body": [
     {
       "type": "Container",
@@ -8,7 +11,7 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "2024- 05- 31-금 \r\n \r\n",
+          "text": "2024.05.31.금 \r\n \r\n",
           "weight": "Bolder",
           "size": "Medium"
         },

@@ -38,12 +38,12 @@ namespace Inhatc_Chatbot
                 }
                 j = 0;
 
-                var replaceDate = str[0].ToString().Replace(".", "-");
+                var replaceDate = str[0].ToString().Replace(". ", ".");
                 var adaptiveCard = new {
                     type = "AdaptiveCard",
                     version = "1.2",
                     body = new List<object>
-    {
+                    {
                         new
                         {
                             type = "Container",
@@ -120,9 +120,8 @@ namespace Inhatc_Chatbot
                     }
                 };
                 string json = JsonConvert.SerializeObject(adaptiveCard, Formatting.Indented);
-                Console.WriteLine(json);
-
-                string filePath = $"C:\\ChatBot_Project\\Inhatc_ChatBot\\Inhatc_ChatBot\\Card\\JsonFile\\MenuJson\\MenuCard{i++}.json";
+                Console.WriteLine(json); 
+                string filePath = System.Environment.CurrentDirectory.ToString() + $"\\card\\JsonFile\\MenuJson\\MenuCard{i++}.json";
                 File.WriteAllText(filePath, json);
             }
 
