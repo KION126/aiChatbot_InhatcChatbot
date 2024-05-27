@@ -105,6 +105,11 @@ namespace Inhatc_ChatBot.Dialogs
                     await stepContext.Context.SendActivityAsync(ASCard, cancellationToken);
                     break;
 
+                case Inhatc.Intent.교내연락처:
+                    var SchoolCI = ConverterJson.makeCard("SchoolCI");
+                    await stepContext.Context.SendActivityAsync(SchoolCI, cancellationToken);
+                    break;
+                    
                 case Inhatc.Intent.입학안내:
                     var AdmissionCard = ConverterJson.makeCard("AdmissionCard");
                     await stepContext.Context.SendActivityAsync(AdmissionCard, cancellationToken);
