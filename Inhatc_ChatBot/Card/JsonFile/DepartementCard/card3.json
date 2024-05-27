@@ -16,24 +16,24 @@
           "type": "ActionSet",
           "actions": [
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "건설환경공학과",
-              "url": "https://civil.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "공간정보빅데이터과",
-              "url": "https://gisup.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "화학생명공학과",
-              "url": "https://chem.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "재료공학과",
-              "url": "https://mse.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             }
           ]
         }

@@ -16,24 +16,25 @@
           "type": "ActionSet",
           "actions": [
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "건축학과",
-              "url": "https://archi.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "실내건축학과",
-              "url": "https://interior.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "산업디자인학과",
-              "url": "https://industrydesign.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "패션디자인학과",
-              "url": "https://fashion.inhatc.ac.kr/"
+              "url": null,
+              "data": "기계공학과에 대해 알려줘"
             }
           ]
         }

@@ -38,10 +38,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "학교소개",
-                      "data": {
-                        "id": "introSchool",
-                        "text": "인하공업전문대학교에 대해서 소개해줘"
-                      },
+                      "data": "인하공업전문대학교에 대해서 소개해줘",                  
                       "iconUrl": "https://ifh.cc/g/CSXk7Y.png"
                     }
                   ]
@@ -58,9 +55,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "학과소개",
-                      "data": {
-                        "id": "introDept"
-                      }
+                      "data": "인하공업전문대학교의 학과들을 소개해줘"
                     }
                   ]
                 }
@@ -76,29 +71,9 @@
                     {
                       "type": "Action.Submit",
                       "title": "학사일정",
-                      "data": {
-                        "id": "schedule"
-                      }
+                      "data": "인하공업전문대학교 학사일정 알려줘"
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "Column",
-          "width": "stretch",
-          "items": [
-            {
-              "type": "ActionSet",
-              "actions": [
-                {
-                  "type": "Action.Submit",
-                  "title": "SNS",
-                  "data": {
-                    "id": "sns"
-                  }
                 }
               ]
             }
@@ -117,9 +92,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "입학안내",
-                      "data": {
-                        "id": "sns"
-                      }
+                      "data": "인하공업전문대학교 입학안내"
                     }
                   ]
                 }
@@ -135,9 +108,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "교내연락처",
-                      "data": {
-                        "id": "contactInfo"
-                      }
+                      "data": "인하공업전문대학교 교내연락처 알려줘"
                     }
                   ]
                 }
@@ -153,9 +124,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "캠퍼스맵",
-                      "data": {
-                        "id": "campusMap"
-                      }
+                      "data": "인하공업전문대학교 캠퍼스맵"
                     }
                   ]
                 }
@@ -176,9 +145,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "식당",
-                      "data": {
-                        "id": "restaurant"
-                      }
+                      "data": "인하공업전문대학교 식당 메뉴 알려줘"
                     }
                   ]
                 }
@@ -194,9 +161,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "공지사항",
-                      "data": {
-                        "id": "notice"
-                      }
+                      "data": "인하공업전문대학교 공지사항 알려줘"
                     }
                   ]
                 }
@@ -212,9 +177,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "수강신청",
-                      "data": {
-                        "id": "registration"
-                      }
+                      "data": "인하공업전문대학교 수강신청에 대해 알려줘"
                     }
                   ]
                 }

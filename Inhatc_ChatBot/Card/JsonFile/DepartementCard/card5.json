@@ -16,39 +16,39 @@
           "type": "ActionSet",
           "actions": [
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "항공운항과",
-              "url": "https://cbncrew.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "항공경영학과",
-              "url": "https://asm.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "관광경영학과",
-              "url": "https://tour.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "경영비서학과",
-              "url": "https://secretary.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "호텔경영학과",
-              "url": "https://hotel.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "물류시스템학과",
-              "url": "https://logis.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "스포츠헬스케어학과",
-              "url": "https://sports.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             }
           ]
         }

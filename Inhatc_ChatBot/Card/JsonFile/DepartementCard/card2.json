@@ -16,34 +16,34 @@
           "type": "ActionSet",
           "actions": [
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "전자공학과",
-              "url": "https://ee.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "전기공학과",
-              "url": "https://er.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "정보통신공학과",
-              "url": "https://inc.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "컴퓨터정보공학과",
-              "url": "https://cs.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "컴퓨터시스템공학과",
-              "url": "https://cse.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "디지털마케팅공학과",
-              "url": "https://dgmarketing.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             }
           ]
         }

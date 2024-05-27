@@ -16,39 +16,39 @@
           "type": "ActionSet",
           "actions": [
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "기계공학과",
-              "url": "https://mecheng.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "기계설계공학과",
-              "url": "https://md.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "메카트로닉스공학과",
-              "url": "https://mecha.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "반도체기계정비학과",
-              "url": "https://maintenance.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "조선기계공학과",
-              "url": "https://sos.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "항공기계공학과",
-              "url": "https://ame.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             },
             {
-              "type": "Action.OpenUrl",
+              "type": "Action.Submit",
               "title": "자동차공학과",
-              "url": "https://auto.inhatc.ac.kr/"
+              "data": "기계공학과에 대해 알려줘"
             }
           ]
         }
