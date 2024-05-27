@@ -9,9 +9,10 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "2024.05.30.목 \r\n \r\n",
+          "text": "2024.05.30.목",
           "weight": "Bolder",
-          "size": "Medium"
+          "size": "Medium",
+          "horizontalAlignment": "Center"
         },
         {
           "type": "ColumnSet",
@@ -28,7 +29,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "제육볶음\r\n제육볶음\r\n청양콩나물국/쌀밥\r\n로제누들떡볶이\r\n모듬콩조림\r\n배추김치",
+                  "text": "제육볶음  \n제육볶음  \n청양콩나물국/쌀밥  \n로제누들떡볶이  \n모듬콩조림  \n배추김치",
                   "wrap": "true"
                 }
               ]
@@ -43,7 +44,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "미나리곰탕\r\n미나리곰탕/쌀밥\r\n두부조림\r\n비빔만두\r\n미역줄기볶음\r\n깍두기",
+                  "text": "미나리곰탕  \n미나리곰탕/쌀밥  \n두부조림  \n비빔만두  \n미역줄기볶음  \n깍두기",
                   "wrap": "true"
                 }
               ]
@@ -58,7 +59,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "갈릭닭다리구이\r\n갈릭닭다리구이\r\n계란볶음밥\r\n감자튀김\r\n케찹\r\n양배추샐러드\r\n\r\n요거트d\r\n깍두기\r\n요구르트",
+                  "text": "갈릭닭다리구이  \n갈릭닭다리구이  \n계란볶음밥  \n감자튀김  \n케찹  \n양배추샐러드  \n요거트  \n깍두기  \n요구르트",
                   "wrap": "true"
                 }
               ]

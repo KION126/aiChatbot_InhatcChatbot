@@ -9,9 +9,10 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "2024.05.27.월 \r\n \r\n",
+          "text": "2024.05.27.월",
           "weight": "Bolder",
-          "size": "Medium"
+          "size": "Medium",
+          "horizontalAlignment": "Center"
         },
         {
           "type": "ColumnSet",
@@ -28,7 +29,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "돈육계란장조림\r\n돈육계란장조림\r\n김치어묵국/쌀밥\r\n치킨볼강정\r\n양념깻잎지\r\n깍두기",
+                  "text": "돈육계란장조림  \n돈육계란장조림  \n김치어묵국/쌀밥  \n치킨볼강정  \n양념깻잎지  \n깍두기",
                   "wrap": "true"
                 }
               ]
@@ -43,7 +44,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "닭갈비\r\n들기름막국수\r\n춘천닭갈비\r\n들기름막국수\r\n쌀밥/시금치된장국\r\n콩나물무침\r\n배추김치",
+                  "text": "닭갈비  \n들기름막국수  \n춘천닭갈비  \n들기름막국수  \n쌀밥/시금치된장국  \n콩나물무침  \n배추김치",
                   "wrap": "true"
                 }
               ]
@@ -58,7 +59,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "스팸마요덮밥\r\n스팸마요덮밥\r\n김치어묵국\r\n고구마고로케\r\n케찹\r\n푸실리살사샐러드\r\n깍두기\r\n*빠삐코아이스크림*",
+                  "text": "스팸마요덮밥  \n스팸마요덮밥  \n김치어묵국  \n고구마고로케  \n케찹  \n푸실리살사샐러드  \n깍두기  \n*빠삐코아이스크림*",
                   "wrap": "true"
                 }
               ]

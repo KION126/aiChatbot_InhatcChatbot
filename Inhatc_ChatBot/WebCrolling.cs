@@ -54,9 +54,10 @@ namespace Inhatc_Chatbot
                                 new
                                 {
                                 type = "TextBlock",
-                                text = $"{replaceDate}{str[1]} \r\n \r\n",
+                                text = $"{replaceDate}{str[1]}",
                                 weight = "Bolder",
-                                size = "Medium"
+                                size = "Medium",
+                                horizontalAlignment = "Center"
                                 },
                                 new {
                                     type = "ColumnSet",
@@ -76,7 +77,7 @@ namespace Inhatc_Chatbot
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = $"{str[2].ToString().Replace("&","\r\n")}",
+                                                    text = $"{str[2].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n","  \n").Replace("&", "  \n").Replace("\r\n","  \n").Replace("d", "")}",
                                                     wrap = "true"
                                                 }
                                             }
@@ -94,7 +95,7 @@ namespace Inhatc_Chatbot
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = $"{str[3].ToString().Replace("&","\r\n")}",
+                                                    text = $"{str[3].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n", "  \n").Replace("&","  \n").Replace("\r\n","  \n").Replace("d", "")}",
                                                     wrap = "true"
                                                 }
                                             }
@@ -112,7 +113,7 @@ namespace Inhatc_Chatbot
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = $"{str[4].ToString().Replace("&","\r\n")}",
+                                                    text = $"{str[4].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n", "  \n").Replace("&","  \n").Replace("\r\n", "  \n").Replace("d", "")}",
                                                     wrap = "true"
                                                 }
                                             }

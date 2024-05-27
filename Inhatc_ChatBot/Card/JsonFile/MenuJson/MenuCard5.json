@@ -9,9 +9,10 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "2024.05.31.금 \r\n \r\n",
+          "text": "2024.05.31.금",
           "weight": "Bolder",
-          "size": "Medium"
+          "size": "Medium",
+          "horizontalAlignment": "Center"
         },
         {
           "type": "ColumnSet",
@@ -28,7 +29,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "캔참치생야채비빔밥\r\n캔참치생야채비빔밥\r\n유부장국\r\n해쉬브라운함박\r\n푸실리샐러드\r\n배추김치\r\n요구르트",
+                  "text": "캔참치생야채비빔밥  \n캔참치생야채비빔밥  \n유부장국  \n해쉬브라운함박  \n푸실리샐러드  \n배추김치  \n요구르트",
                   "wrap": "true"
                 }
               ]
@@ -43,7 +44,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "해물순두부찌개\r\n해물순두부찌개\r\n청파래오징어까스\r\n메추리알장조림\r\n새송이야채볶음\r\n깍두기",
+                  "text": "해물순두부찌개  \n해물순두부찌개  \n청파래오징어까스  \n메추리알장조림  \n새송이야채볶음  \n깍두기",
                   "wrap": "true"
                 }
               ]
@@ -58,7 +59,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "물냉면\r\n바짝불고기\r\n물냉면\r\n\r\n바짝불고기\r\n냉면김치\r\n후리가케밥\r\n컵젤리",
+                  "text": "물냉면  \n바짝불고기  \n물냉면  \n바짝불고기  \n냉면김치  \n후리가케밥  \n컵젤리",
                   "wrap": "true"
                 }
               ]

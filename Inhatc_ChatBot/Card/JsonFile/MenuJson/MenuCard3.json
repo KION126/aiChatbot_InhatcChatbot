@@ -9,9 +9,10 @@
       "items": [
         {
           "type": "TextBlock",
-          "text": "2024.05.29.수 \r\n \r\n",
+          "text": "2024.05.29.수",
           "weight": "Bolder",
-          "size": "Medium"
+          "size": "Medium",
+          "horizontalAlignment": "Center"
         },
         {
           "type": "ColumnSet",
@@ -28,7 +29,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "경상도식무국\r\n경상도식무국\r\n왕김치메밀전병\r\n탕평채\r\n마늘쫑지무침\r\n쌀밥/깍두기",
+                  "text": "경상도식무국  \n경상도식무국  \n왕김치메밀전병  \n탕평채  \n마늘쫑지무침  \n쌀밥/깍두기",
                   "wrap": "true"
                 }
               ]
@@ -43,7 +44,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "주꾸미돈육볶음\r\n주꾸미돈육볶음\r\n\r\n깻잎쌈무\r\n맛살어묵볶음\r\n치커리무침\r\n기장밥/계란파국\r\n배추김치",
+                  "text": "주꾸미돈육볶음  \n주꾸미돈육볶음  \n깻잎쌈무  \n맛살어묵볶음  \n치커리무침  \n기장밥/계란파국  \n배추김치",
                   "wrap": "true"
                 }
               ]
@@ -58,7 +59,7 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "지코바 치밥\r\n지코바 치밥\r\n빅핫도그\r\n케찹\r\n머스타드\r\n양상추샐러드\r\n파인유자d\r\n배추김치\r\n캔콜라",
+                  "text": "지코바 치밥  \n지코바 치밥  \n빅핫도그  \n케찹  \n머스타드  \n양상추샐러드  \n파인유자  \n배추김치  \n캔콜라",
                   "wrap": "true"
                 }
               ]
