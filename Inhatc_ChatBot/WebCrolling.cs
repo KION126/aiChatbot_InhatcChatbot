@@ -14,9 +14,9 @@ using System.Globalization;
 
 namespace Inhatc_Chatbot
 {
-    internal class WebCrolling
+    internal class WebCrawling
     {
-        static public void crolling()
+        static public void crawling()
         {
             var _option = new ChromeOptions();
             _option.AddArgument("--headless");
@@ -77,7 +77,7 @@ namespace Inhatc_Chatbot
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = $"{str[2].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n","  \n").Replace("&", "  \n").Replace("\r\n","  \n").Replace("d", "")}",
+                                                    text = $"{str[2].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n","  \n").Replace("&", "  \n").Replace("\r\n","  \n").Replace("d", "").Replace("*", "")}",
                                                     wrap = "true"
                                                 }
                                             }
@@ -95,7 +95,7 @@ namespace Inhatc_Chatbot
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = $"{str[3].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n", "  \n").Replace("&","  \n").Replace("\r\n","  \n").Replace("d", "")}",
+                                                    text = $"{str[3].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n", "  \n").Replace("&","  \n").Replace("\r\n","  \n").Replace("d", "").Replace("*", "")}",
                                                     wrap = "true"
                                                 }
                                             }
@@ -113,7 +113,7 @@ namespace Inhatc_Chatbot
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = $"{str[4].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n", "  \n").Replace("&","  \n").Replace("\r\n", "  \n").Replace("d", "")}",
+                                                    text = $"{str[4].ToString().Replace("\r\n&", "\r\n").Replace("&\r\n", "  \n").Replace("&","  \n").Replace("\r\n", "  \n").Replace("d", "").Replace("*", "")}",
                                                     wrap = "true"
                                                 }
                                             }

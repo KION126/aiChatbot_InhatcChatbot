@@ -58,7 +58,7 @@ namespace Inhatc_ChatBot
 
             services.AddTransient<IBot, WelcomeBot<MainDialog>>();
 
-            services.AddSingleton<WebCrolling>();
+            services.AddSingleton<WebCrawling>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

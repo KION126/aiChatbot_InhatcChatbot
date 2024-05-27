@@ -10,7 +10,7 @@ namespace Inhatc_ChatBot
     {
         public static void Main(string[] args)
         {
-            WebCrolling.crolling();
+            WebCrawling.crawling();
             CreateHostBuilder(args).Build().Run();
         }
 
