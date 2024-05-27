@@ -18,37 +18,37 @@
             {
               "type": "Action.Submit",
               "title": "항공운항과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "항공운항과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "항공경영학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "항공경영학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "관광경영학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "관광경영학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "경영비서학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "경영비서학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "호텔경영학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "호텔경영학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "물류시스템학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "물류시스템학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "스포츠헬스케어학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "스포츠헬스케어학과에 대해 알려줘"
             }
           ]
         }

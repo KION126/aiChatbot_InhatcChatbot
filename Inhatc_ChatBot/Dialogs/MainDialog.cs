@@ -105,6 +105,11 @@ namespace Inhatc_ChatBot.Dialogs
                     await stepContext.Context.SendActivityAsync(ASCard, cancellationToken);
                     break;
 
+                case Inhatc.Intent.입학안내:
+                    var AdmissionCard = ConverterJson.makeCard("AdmissionCard");
+                    await stepContext.Context.SendActivityAsync(AdmissionCard, cancellationToken);
+                    break;
+
                 default:
                     var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {cluResult.GetTopIntent().intent})";
                     var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);

@@ -18,23 +18,22 @@
             {
               "type": "Action.Submit",
               "title": "건축학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "건축학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "실내건축학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "실내건축학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "산업디자인학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "산업디자인학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "패션디자인학과",
-              "url": null,
-              "data": "기계공학과에 대해 알려줘"
+              "data": "패션디자인학과학과에 대해 알려줘"
             }
           ]
         }

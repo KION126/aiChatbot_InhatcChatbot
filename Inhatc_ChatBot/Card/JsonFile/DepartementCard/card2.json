@@ -18,32 +18,32 @@
             {
               "type": "Action.Submit",
               "title": "전자공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "전자공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "전기공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "전기공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "정보통신공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "정보통신공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "컴퓨터정보공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "컴퓨터정보공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "컴퓨터시스템공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "컴퓨터시스템공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "디지털마케팅공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "디지털마케팅공학과에 대해 알려줘"
             }
           ]
         }
