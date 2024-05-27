@@ -1,13 +1,11 @@
 {
   "type": "AdaptiveCard",
   "version": "1.2",
-  "msteams": {
-    "witdh": "full"
-  },
   "body": [
     {
       "type": "Container",
       "horizontalAlignment": "Center",
+      "size": "Large",
       "items": [
         {
           "type": "TextBlock",
@@ -17,12 +15,12 @@
         },
         {
           "type": "ColumnSet",
-          "width": "stretch",
+          "width": "auto",
           "style": "default",
           "columns": [
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -30,13 +28,14 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "캔참치생야채비빔밥\r\n캔참치생야채비빔밥\r\n유부장국\r\n해쉬브라운함박\r\n푸실리샐러드\r\n배추김치\r\n요구르트"
+                  "text": "캔참치생야채비빔밥\r\n캔참치생야채비빔밥\r\n유부장국\r\n해쉬브라운함박\r\n푸실리샐러드\r\n배추김치\r\n요구르트",
+                  "wrap": "true"
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -44,13 +43,14 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "해물순두부찌개\r\n해물순두부찌개\r\n청파래오징어까스\r\n메추리알장조림\r\n새송이야채볶음\r\n깍두기"
+                  "text": "해물순두부찌개\r\n해물순두부찌개\r\n청파래오징어까스\r\n메추리알장조림\r\n새송이야채볶음\r\n깍두기",
+                  "wrap": "true"
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -58,7 +58,8 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "물냉면\r\n바짝불고기\r\n물냉면\r\n\r\n바짝불고기\r\n냉면김치\r\n후리가케밥\r\n컵젤리"
+                  "text": "물냉면\r\n바짝불고기\r\n물냉면\r\n\r\n바짝불고기\r\n냉면김치\r\n후리가케밥\r\n컵젤리",
+                  "wrap": "true"
                 }
               ]
             }

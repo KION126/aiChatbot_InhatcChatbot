@@ -1,13 +1,11 @@
 {
   "type": "AdaptiveCard",
   "version": "1.2",
-  "msteams": {
-    "witdh": "full"
-  },
   "body": [
     {
       "type": "Container",
       "horizontalAlignment": "Center",
+      "size": "Large",
       "items": [
         {
           "type": "TextBlock",
@@ -17,12 +15,12 @@
         },
         {
           "type": "ColumnSet",
-          "width": "stretch",
+          "width": "auto",
           "style": "default",
           "columns": [
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -30,13 +28,14 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "돈육계란장조림\r\n돈육계란장조림\r\n김치어묵국/쌀밥\r\n치킨볼강정\r\n양념깻잎지\r\n깍두기"
+                  "text": "돈육계란장조림\r\n돈육계란장조림\r\n김치어묵국/쌀밥\r\n치킨볼강정\r\n양념깻잎지\r\n깍두기",
+                  "wrap": "true"
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -44,13 +43,14 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "닭갈비\r\n들기름막국수\r\n춘천닭갈비\r\n들기름막국수\r\n쌀밥/시금치된장국\r\n콩나물무침\r\n배추김치"
+                  "text": "닭갈비\r\n들기름막국수\r\n춘천닭갈비\r\n들기름막국수\r\n쌀밥/시금치된장국\r\n콩나물무침\r\n배추김치",
+                  "wrap": "true"
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -58,7 +58,8 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "스팸마요덮밥\r\n스팸마요덮밥\r\n김치어묵국\r\n고구마고로케\r\n케찹\r\n푸실리살사샐러드\r\n깍두기\r\n*빠삐코아이스크림*"
+                  "text": "스팸마요덮밥\r\n스팸마요덮밥\r\n김치어묵국\r\n고구마고로케\r\n케찹\r\n푸실리살사샐러드\r\n깍두기\r\n*빠삐코아이스크림*",
+                  "wrap": "true"
                 }
               ]
             }

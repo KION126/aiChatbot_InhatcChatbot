@@ -48,6 +48,7 @@ namespace Inhatc_Chatbot
                         {
                             type = "Container",
                             horizontalAlignment = "Center",
+                            size = "Large",
                             items = new List<object>
                             {
                                 new
@@ -59,60 +60,63 @@ namespace Inhatc_Chatbot
                                 },
                                 new {
                                     type = "ColumnSet",
-                                    width = "stretch",
+                                    width = "auto",
                                     style = "default",
                                     columns = new List<object> {
                                         new {
                                             type = "Column",
-                                            width = "stretch",
+                                            width = "155px",
                                             items = new List<object>
                                             {
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = "조식", 
+                                                    text = "조식"
                                                 },
                                                 new
                                                 {
                                                     type = "TextBlock",
                                                     text = $"{str[2].ToString().Replace("&","\r\n")}",
+                                                    wrap = "true"
                                                 }
                                             }
                                         },
                                         new {
                                             type = "Column",
-                                            width = "stretch",
+                                            width = "155px",
                                             items = new List<object>
                                             {
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = "중식(일반)",
+                                                    text = "중식(일반)"
                                                 },
                                                 new
                                                 {
                                                     type = "TextBlock",
                                                     text = $"{str[3].ToString().Replace("&","\r\n")}",
+                                                    wrap = "true"
                                                 }
                                             }
                                         },
                                         new {
                                             type = "Column",
-                                            width = "stretch",
+                                            width = "155px",
                                             items = new List<object>
                                             {
                                                 new
                                                 {
                                                     type = "TextBlock",
-                                                    text = "중식(특식)",
+                                                    text = "중식(특식)"
                                                 },
                                                 new
                                                 {
                                                     type = "TextBlock",
                                                     text = $"{str[4].ToString().Replace("&","\r\n")}",
+                                                    wrap = "true"
                                                 }
                                             }
-                                        }
+                                        },
                                     }
                                 }
                             }

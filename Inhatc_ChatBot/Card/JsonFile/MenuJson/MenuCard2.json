@@ -1,13 +1,11 @@
 {
   "type": "AdaptiveCard",
   "version": "1.2",
-  "msteams": {
-    "witdh": "full"
-  },
   "body": [
     {
       "type": "Container",
       "horizontalAlignment": "Center",
+      "size": "Large",
       "items": [
         {
           "type": "TextBlock",
@@ -17,12 +15,12 @@
         },
         {
           "type": "ColumnSet",
-          "width": "stretch",
+          "width": "auto",
           "style": "default",
           "columns": [
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -30,13 +28,14 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "떡만두국\r\n떡만두국/쌀밥\r\n미트볼케찹볶음\r\n부추새콤무침\r\n배추김치\r\n카스테라\r\n오렌지주스"
+                  "text": "떡만두국\r\n떡만두국/쌀밥\r\n미트볼케찹볶음\r\n부추새콤무침\r\n배추김치\r\n카스테라\r\n오렌지주스",
+                  "wrap": "true"
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -44,13 +43,14 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "돈까스카레라이스\r\n돈까스카레라이스\r\n팽이장국\r\n양상추샐러드\r\n자두d\r\n단무지부추무침\r\n배추김치\r\n감귤주스"
+                  "text": "돈까스카레라이스\r\n돈까스카레라이스\r\n팽이장국\r\n양상추샐러드\r\n자두d\r\n단무지부추무침\r\n배추김치\r\n감귤주스",
+                  "wrap": "true"
                 }
               ]
             },
             {
               "type": "Column",
-              "width": "stretch",
+              "width": "155px",
               "items": [
                 {
                   "type": "TextBlock",
@@ -58,7 +58,8 @@
                 },
                 {
                   "type": "TextBlock",
-                  "text": "새콤달콤쫄면\r\n새콤달콤 쫄면\r\n김밥볶음밥\r\n미니물만두\r\n통감자구이\r\n배추김치\r\n포도주스"
+                  "text": "새콤달콤쫄면\r\n새콤달콤 쫄면\r\n김밥볶음밥\r\n미니물만두\r\n통감자구이\r\n배추김치\r\n포도주스",
+                  "wrap": "true"
                 }
               ]
             }
