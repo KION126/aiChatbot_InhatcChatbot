@@ -117,6 +117,9 @@ namespace Inhatc_ChatBot.Dialogs
                     case Inhatc.Intent.식당:
                         var RestaurantMenu = ConverterJson.makeCard("RestaurantMenu");
                         await stepContext.Context.SendActivityAsync(RestaurantMenu, cancellationToken);
+                        var meunCards = ConverterJson.MakeAllMenuCards();
+                        var message2 = MessageFactory.Carousel(meunCards);
+                        await stepContext.Context.SendActivityAsync(message2, cancellationToken);
                         break;
                         
                     case Inhatc.Intent.공지사항:
