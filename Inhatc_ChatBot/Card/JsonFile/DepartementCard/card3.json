@@ -18,22 +18,22 @@
             {
               "type": "Action.Submit",
               "title": "건설환경공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "건설환경공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "공간정보빅데이터과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "공간정보빅데이터과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "화학생명공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "화학생명공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "재료공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "재료공학과에 대해 알려줘"
             }
           ]
         }

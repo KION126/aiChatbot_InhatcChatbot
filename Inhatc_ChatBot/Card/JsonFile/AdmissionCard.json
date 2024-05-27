@@ -1,0 +1,38 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "인하공업전문대학교 입학 안내",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "창의와 혁신으로 미래 고등직업교육을 선도하는 대학",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "모집요강",
+              "url": "https://ipsi.inhatc.ac.kr/Web-home/plugin/pdfjs/web/viewer.html?file=%2Fsites%2Fipsi%2Fatchmnfl%2Fviewer%2F13%2F%2Ftemp_1692317945120100.tmp#navpanes=0&toolbar=0&statusbar=0&scollbar=0&view=FitV&pagemode=none&page=1"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "전년도 입시결과",
+              "url": "https://ipsi.inhatc.ac.kr/sites/ipsi/files/enterance_result_2024nonscheduled.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

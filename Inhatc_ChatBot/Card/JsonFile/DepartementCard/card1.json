@@ -23,32 +23,32 @@
             {
               "type": "Action.Submit",
               "title": "기계설계공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "기계설계공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "메카트로닉스공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "메카트로닉스공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "반도체기계정비학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "반도체기계정비공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "조선기계공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "조선기계공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "항공기계공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "항운기계공학과에 대해 알려줘"
             },
             {
               "type": "Action.Submit",
               "title": "자동차공학과",
-              "data": "기계공학과에 대해 알려줘"
+              "data": "자동차공학과에 대해 알려줘"
             }
           ]
         }
