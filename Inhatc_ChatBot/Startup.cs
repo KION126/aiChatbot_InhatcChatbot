@@ -1,5 +1,6 @@
 ﻿// Generated with Bot Builder V4 SDK Template for Visual Studio EchoBot v4.22.0
 
+using Inhatc_Chatbot;
 using Inhatc_ChatBot.Bots;
 using Inhatc_ChatBot.Clu;
 using Inhatc_ChatBot.Dialogs;
@@ -56,6 +57,8 @@ namespace Inhatc_ChatBot
             services.AddTransient<IBot, EchoBot<MainDialog>>();
 
             services.AddTransient<IBot, WelcomeBot<MainDialog>>();
+
+            services.AddSingleton<WebCrolling>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

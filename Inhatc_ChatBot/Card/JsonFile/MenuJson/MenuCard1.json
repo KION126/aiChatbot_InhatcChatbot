@@ -1,0 +1,67 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "horizontalAlignment": "Center",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "2024- 05- 27-월 \r\n \r\n",
+          "weight": "Bolder",
+          "size": "Medium"
+        },
+        {
+          "type": "ColumnSet",
+          "width": "stretch",
+          "style": "default",
+          "columns": [
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "조식"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "돈육계란장조림\r\n돈육계란장조림\r\n김치어묵국/쌀밥\r\n치킨볼강정\r\n양념깻잎지\r\n깍두기"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "중식(일반)"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "닭갈비\r\n들기름막국수\r\n춘천닭갈비\r\n들기름막국수\r\n쌀밥/시금치된장국\r\n콩나물무침\r\n배추김치"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "stretch",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "중식(특식)"
+                },
+                {
+                  "type": "TextBlock",
+                  "text": "스팸마요덮밥\r\n스팸마요덮밥\r\n김치어묵국\r\n고구마고로케\r\n케찹\r\n푸실리살사샐러드\r\n깍두기\r\n*빠삐코아이스크림*"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -129,5 +129,42 @@ namespace Inhatc_ChatBot.Card
 
             return attachments;
         }
+
+        public static List<Attachment> MakeAllMenuCards()
+        {
+            var attachments = new List<Attachment>();
+
+            // 카드 파일 목록
+            var cardFiles = new List<string>
+            {
+                "./Card/JsonFile/MenuJson/MenuCard1.json",
+                "./Card/JsonFile/MenuJson/MenuCard2.json",
+                "./Card/JsonFile/MenuJson/MenuCard3.json",
+                "./Card/JsonFile/MenuJson/MenuCard4.json",
+                "./Card/JsonFile/MenuJson/MenuCard5.json"
+            };
+
+            foreach (var cardFile in cardFiles) {
+                // JSON 파일을 UTF-8 인코딩으로 읽기
+                string adaptiveCardJson;
+                using (var reader = new StreamReader(cardFile, System.Text.Encoding.UTF8)) {
+                    adaptiveCardJson = reader.ReadToEnd();
+                }
+
+                // JSON 문자열을 Adaptive Card로 변환
+                var adaptiveCard = JsonConvert.DeserializeObject<AdaptiveCard>(adaptiveCardJson);
+
+                // 카드 첨부물을 생성
+                var attachment = new Attachment {
+                    ContentType = "application/vnd.microsoft.card.adaptive",
+                    Content = adaptiveCard
+                };
+
+                // 첨부물 목록에 추가
+                attachments.Add(attachment);
+            }
+
+            return attachments;
+        }
     }
 }
