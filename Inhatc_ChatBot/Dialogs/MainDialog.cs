@@ -106,13 +106,28 @@ namespace Inhatc_ChatBot.Dialogs
                     break;
 
                 case Inhatc.Intent.교내연락처:
-                    var SchoolCI = ConverterJson.makeCard("SchoolCI");
-                    await stepContext.Context.SendActivityAsync(SchoolCI, cancellationToken);
+                    var SchoolCICard = ConverterJson.makeCard("SchoolCICard");
+                    await stepContext.Context.SendActivityAsync(SchoolCICard, cancellationToken);
                     break;
                     
                 case Inhatc.Intent.입학안내:
                     var AdmissionCard = ConverterJson.makeCard("AdmissionCard");
                     await stepContext.Context.SendActivityAsync(AdmissionCard, cancellationToken);
+                    break;
+
+                case Inhatc.Intent.캠퍼스맵:
+                    var CampusMapCard = ConverterJson.makeCard("CampusMapCard");
+                    await stepContext.Context.SendActivityAsync(CampusMapCard, cancellationToken);
+                    break;
+
+                case Inhatc.Intent.수강신청:
+                    var EnrolmentCard = ConverterJson.makeCard("EnrolmentCard");
+                    await stepContext.Context.SendActivityAsync(EnrolmentCard, cancellationToken);
+                    break;
+
+                case Inhatc.Intent.식당:
+                    var RestaurantMenu = ConverterJson.makeCard("RestaurantMenu");
+                    await stepContext.Context.SendActivityAsync(RestaurantMenu, cancellationToken);
                     break;
 
                 default:
