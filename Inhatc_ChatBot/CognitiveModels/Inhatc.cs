@@ -22,6 +22,12 @@ namespace Inhatc_ChatBot.CognitiveModels
             학교소개,
             전체학과소개,
             학사일정,
+            입학안내,
+            교내연락처,
+            캠퍼스맵,
+            식당,
+            공지사항,
+            수강신청,
             None
         }
 
