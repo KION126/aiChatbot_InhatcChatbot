@@ -32,7 +32,7 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "교육이념",
+                  "text": "교육이념🤝",
                   "weight": "Bolder",
                   "size": "Medium",
                   "wrap": true
@@ -72,14 +72,14 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "발전계획",
+                  "text": "발전계획🤜",
                   "weight": "Bolder",
                   "size": "Medium",
                   "wrap": true
                 },
                 {
                   "type": "TextBlock",
-                  "text": "창의와 혁신으로 미래 고등직업교육을 선도하는 대학 \n \n",
+                  "text": "창의와 혁신으로 미래 고등직업교육을 선도하는 대학",
                   "wrap": true
                 }
               ]
@@ -113,7 +113,7 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "총장인사말",
+                  "text": "총장인사말👋",
                   "weight": "Bolder",
                   "size": "Medium",
                   "wrap": true
