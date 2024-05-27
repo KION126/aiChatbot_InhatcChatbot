@@ -22,6 +22,11 @@
           "actions": [
             {
               "type": "Action.OpenUrl",
+              "title": "입학처 홈페이지",
+              "url": "https://ipsi.inhatc.ac.kr/ipsi/index.do"
+            },
+            {
+              "type": "Action.OpenUrl",
               "title": "모집요강",
               "url": "https://ipsi.inhatc.ac.kr/Web-home/plugin/pdfjs/web/viewer.html?file=%2Fsites%2Fipsi%2Fatchmnfl%2Fviewer%2F13%2F%2Ftemp_1692317945120100.tmp#navpanes=0&toolbar=0&statusbar=0&scollbar=0&view=FitV&pagemode=none&page=1"
             },

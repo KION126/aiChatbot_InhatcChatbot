@@ -51,77 +51,82 @@ namespace Inhatc_ChatBot.Dialogs
         private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
             var cluResult = await _cluRecognizer.RecognizeAsync<Inhatc>(stepContext.Context, cancellationToken);
-            switch (cluResult.GetTopIntent().intent)
-            {
-                case Inhatc.Intent.인사말:
-                    var helloCard = ConverterJson.makeCard("MainCard");
-                    await stepContext.Context.SendActivityAsync(helloCard, cancellationToken);
-                    break;
+            if (cluResult.GetTopIntent().score > 0.9) {
+                switch (cluResult.GetTopIntent().intent) {
+                    case Inhatc.Intent.인사말:
+                        var helloCard = ConverterJson.makeCard("MainCard");
+                        await stepContext.Context.SendActivityAsync(helloCard, cancellationToken);
+                        break;
 
-                case Inhatc.Intent.학교소개:
-                    var IntroductionCard = ConverterJson.makeCard("IntroductionCard");
-                    await stepContext.Context.SendActivityAsync(IntroductionCard, cancellationToken);
-                    break;
+                    case Inhatc.Intent.학교소개:
+                        var IntroductionCard = ConverterJson.makeCard("IntroductionCard");
+                        await stepContext.Context.SendActivityAsync(IntroductionCard, cancellationToken);
+                        break;
 
-                case Inhatc.Intent.전체학과소개:
-                    var AllEopCard = ConverterJson.makeCard("AllDepartmentCard");
-                    await stepContext.Context.SendActivityAsync(AllEopCard, cancellationToken);
+                    case Inhatc.Intent.전체학과소개:
+                        var AllEopCard = ConverterJson.makeCard("AllDepartmentCard");
+                        await stepContext.Context.SendActivityAsync(AllEopCard, cancellationToken);
 
-                    var depIntroCards = ConverterJson.MakeAllDepartmentCards();
-                    var message = MessageFactory.Carousel(depIntroCards);
-                    await stepContext.Context.SendActivityAsync(message, cancellationToken);
-                    break;
+                        var depIntroCards = ConverterJson.MakeAllDepartmentCards();
+                        var message = MessageFactory.Carousel(depIntroCards);
+                        await stepContext.Context.SendActivityAsync(message, cancellationToken);
+                        break;
 
-                case Inhatc.Intent.학과소개:
-                    var 학과Entity = cluResult.Entities.GetDepartment();
+                    case Inhatc.Intent.학과소개:
+                        var 학과Entity = cluResult.Entities.GetDepartment();
 
-                    if (!string.IsNullOrEmpty(학과Entity))
-                    {
-                        var normalizedEntity = 학과Entity.Trim().ToLower();
-                        var department = _departments.FirstOrDefault(d =>
-                            d.Name.Trim().ToLower() == normalizedEntity ||
-                            d.Aliases.Any(alias => alias.Trim().ToLower() == normalizedEntity));
+                        if (!string.IsNullOrEmpty(학과Entity)) {
+                            var normalizedEntity = 학과Entity.Trim().ToLower();
+                            var department = _departments.FirstOrDefault(d =>
+                                d.Name.Trim().ToLower() == normalizedEntity ||
+                                d.Aliases.Any(alias => alias.Trim().ToLower() == normalizedEntity));
 
-                        if (department != null)
-                        {
-                            var cardMessage = ConverterJson.MakeDepartmentCard(department);
-                            await stepContext.Context.SendActivityAsync(cardMessage, cancellationToken);
+                            if (department != null) {
+                                var cardMessage = ConverterJson.MakeDepartmentCard(department);
+                                await stepContext.Context.SendActivityAsync(cardMessage, cancellationToken);
+                            } else {
+                                var DeptNotFoundCard = ConverterJson.makeCard("DepartmentNotFoundCard");
+                                await stepContext.Context.SendActivityAsync(DeptNotFoundCard, cancellationToken);
+                            }
+                        } else {
+                            var 학과소개Mess = MessageFactory.Text("학과를 인식하지 못했습니다. 다시 시도해주세요.", inputHint: InputHints.IgnoringInput);
+                            await stepContext.Context.SendActivityAsync(학과소개Mess, cancellationToken);
                         }
-                        else
-                        {
-                            var DeptNotFoundCard = ConverterJson.makeCard("DepartmentNotFoundCard");
-                            await stepContext.Context.SendActivityAsync(DeptNotFoundCard, cancellationToken);
-                        }
-                    }
-                    else
-                    {
-                        var 학과소개Mess = MessageFactory.Text("학과를 인식하지 못했습니다. 다시 시도해주세요.", inputHint: InputHints.IgnoringInput);
-                        await stepContext.Context.SendActivityAsync(학과소개Mess, cancellationToken);
-                    }
-                    break;
+                        break;
 
-                case Inhatc.Intent.학사일정:
-                    var ASCard = ConverterJson.makeCard("AcademicSchedule");
-                    await stepContext.Context.SendActivityAsync(ASCard, cancellationToken);
-                    break;
+                    case Inhatc.Intent.학사일정:
+                        var ASCard = ConverterJson.makeCard("AcademicSchedule");
+                        await stepContext.Context.SendActivityAsync(ASCard, cancellationToken);
+                        break;
 
-                case Inhatc.Intent.교내연락처:
-                    var SchoolCI = ConverterJson.makeCard("SchoolCI");
-                    await stepContext.Context.SendActivityAsync(SchoolCI, cancellationToken);
-                    break;
-                    
-                case Inhatc.Intent.입학안내:
-                    var AdmissionCard = ConverterJson.makeCard("AdmissionCard");
-                    await stepContext.Context.SendActivityAsync(AdmissionCard, cancellationToken);
-                    break;
+                    case Inhatc.Intent.교내연락처:
+                        var SchoolCI = ConverterJson.makeCard("SchoolCI");
+                        await stepContext.Context.SendActivityAsync(SchoolCI, cancellationToken);
+                        break;
 
-                default:
-                    var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {cluResult.GetTopIntent().intent})";
-                    var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
-                    await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
-                    break;
+                    case Inhatc.Intent.입학안내:
+                        var AdmissionCard = ConverterJson.makeCard("AdmissionCard");
+                        await stepContext.Context.SendActivityAsync(AdmissionCard, cancellationToken);
+                        break;
+
+                    case Inhatc.Intent.공지사항:
+                        var NoticeCard = ConverterJson.makeCard("NoticeCard");
+                        await stepContext.Context.SendActivityAsync(NoticeCard, cancellationToken);
+                        break;
+
+                    default:
+                        var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {cluResult.GetTopIntent().intent})";
+                        var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
+                        await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
+                        break;
+                }
+            } else {
+                var didntUnderstandMessageText = $"무슨 말인지 모르겠어요 다시 질문해 주세요";
+                var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
+                await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
+                var helloCard = ConverterJson.makeCard("MainCard");
+                await stepContext.Context.SendActivityAsync(helloCard, cancellationToken);
             }
-
             return await stepContext.NextAsync(null, cancellationToken);
         }
     }

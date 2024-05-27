@@ -1,0 +1,48 @@
+﻿{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "인하공업전문대학교 공지사항",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "인하공업전문대학교 공지사항입니다.",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "전체 공지사항",
+              "url": "https://www.inhatc.ac.kr/kr/460/subview.do"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "학사 공지사항",
+              "url": "https://www.inhatc.ac.kr/kr/461/subview.do"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "행사 공지사항",
+              "url": "https://www.inhatc.ac.kr/kr/464/subview.do"
+            },
+            {
+              "type": "Action.OpenUrl",
+              "title": "장학 공지사항",
+              "url": "https://www.inhatc.ac.kr/kr/463/subview.do"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
