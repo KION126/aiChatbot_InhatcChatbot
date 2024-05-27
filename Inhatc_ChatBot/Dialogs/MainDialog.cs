@@ -98,20 +98,35 @@ namespace Inhatc_ChatBot.Dialogs
                         var ASCard = ConverterJson.makeCard("AcademicSchedule");
                         await stepContext.Context.SendActivityAsync(ASCard, cancellationToken);
                         break;
-
-                    case Inhatc.Intent.교내연락처:
-                        var SchoolCI = ConverterJson.makeCard("SchoolCI");
-                        await stepContext.Context.SendActivityAsync(SchoolCI, cancellationToken);
-                        break;
-
+                        
                     case Inhatc.Intent.입학안내:
                         var AdmissionCard = ConverterJson.makeCard("AdmissionCard");
                         await stepContext.Context.SendActivityAsync(AdmissionCard, cancellationToken);
                         break;
+                        
+                    case Inhatc.Intent.교내연락처:
+                        var SchoolCI = ConverterJson.makeCard("SchoolCI");
+                        await stepContext.Context.SendActivityAsync(SchoolCI, cancellationToken);
+                        break;
+                        
+                    case Inhatc.Intent.캠퍼스맵:
+                        var CampusMapCard = ConverterJson.makeCard("CampusMapCard");
+                        await stepContext.Context.SendActivityAsync(CampusMapCard, cancellationToken);
+                        break;
 
+                    case Inhatc.Intent.식당:
+                        var RestaurantMenu = ConverterJson.makeCard("RestaurantMenu");
+                        await stepContext.Context.SendActivityAsync(RestaurantMenu, cancellationToken);
+                        break;
+                        
                     case Inhatc.Intent.공지사항:
                         var NoticeCard = ConverterJson.makeCard("NoticeCard");
                         await stepContext.Context.SendActivityAsync(NoticeCard, cancellationToken);
+                        break;
+
+                    case Inhatc.Intent.수강신청:
+                        var EnrolmentCard = ConverterJson.makeCard("EnrolmentCard");
+                        await stepContext.Context.SendActivityAsync(EnrolmentCard, cancellationToken);
                         break;
 
                     default:
@@ -126,6 +141,7 @@ namespace Inhatc_ChatBot.Dialogs
                 await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
                 var helloCard = ConverterJson.makeCard("MainCard");
                 await stepContext.Context.SendActivityAsync(helloCard, cancellationToken);
+
             }
             return await stepContext.NextAsync(null, cancellationToken);
         }

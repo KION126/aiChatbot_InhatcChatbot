@@ -1,0 +1,33 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "식당메뉴",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "식당메뉴 사이트입니다. 버튼을 누르세요",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "식당메뉴 보러기가기",
+              "url": "https://www.inhatc.ac.kr/kr/485/subview.do"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "TextBlock",
+          "text": "캠퍼스맵",
+          "weight": "Bolder",
+          "size": "Medium",
+          "wrap": true
+        },
+        {
+          "type": "TextBlock",
+          "text": "캠퍼스맵 사이트입니다. 버튼을 누르세요",
+          "wrap": true
+        },
+        {
+          "type": "ActionSet",
+          "actions": [
+            {
+              "type": "Action.OpenUrl",
+              "title": "캠퍼스맵 보러가기",
+              "url": "https://www.inhatc.ac.kr/kr/103/subview.do"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
