@@ -14,7 +14,7 @@
         },
         {
           "type": "TextBlock",
-          "text": "교내연락처 사이트입니다. 버튼을 누르세요",
+          "text": "교내 부서 전화번호가 궁금하시군요!📞 \r\n소속, 업무 별 담당자 전화번호를 찾으시려면 아래 버튼을 눌러 검색해주세요!🔍",
           "wrap": true
         },
         {
@@ -22,7 +22,7 @@
           "actions": [
             {
               "type": "Action.OpenUrl",
-              "title": "학사일정 보러기가기",
+              "title": "교내연락처 검색하러 가기",
               "url": "https://www.inhatc.ac.kr/kr/166/subview.do"
             }
           ]

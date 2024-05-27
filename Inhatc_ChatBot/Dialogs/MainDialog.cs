@@ -105,8 +105,8 @@ namespace Inhatc_ChatBot.Dialogs
                         break;
                         
                     case Inhatc.Intent.교내연락처:
-                        var SchoolCI = ConverterJson.makeCard("SchoolCICard");
-                        await stepContext.Context.SendActivityAsync(SchoolCI, cancellationToken);
+                        var SchoolCICard = ConverterJson.makeCard("SchoolCICard");
+                        await stepContext.Context.SendActivityAsync(SchoolCICard, cancellationToken);
                         break;
                         
                     case Inhatc.Intent.캠퍼스맵:
