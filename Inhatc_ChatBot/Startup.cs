@@ -5,6 +5,7 @@ using Inhatc_ChatBot.Bots;
 using Inhatc_ChatBot.Clu;
 using Inhatc_ChatBot.Dialogs;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.DataProtection.KeyManagement;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
@@ -59,6 +60,14 @@ namespace Inhatc_ChatBot
             services.AddTransient<IBot, WelcomeBot<MainDialog>>();
 
             services.AddSingleton<WebCrawling>();
+
+            // OpenAiApiKey Configure
+            services.AddSingleton<ChatGptService>(provider =>
+            {
+                var configuration = provider.GetRequiredService<IConfiguration>();
+                var apiKey = configuration["OpenAiApiKey"];
+                return new ChatGptService(apiKey);
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -9,6 +9,7 @@ using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Schema;
 using Microsoft.Extensions.Logging;
 using Inhatc_ChatBot.Card;
+using System;
 
 namespace Inhatc_ChatBot.Dialogs
 {
@@ -17,13 +18,15 @@ namespace Inhatc_ChatBot.Dialogs
         private readonly InhatcRecognizer _cluRecognizer;
         protected readonly ILogger Logger;
         private readonly List<DepartmentInfo> _departments;
+        private readonly ChatGptService _chatGptService;
 
-        public MainDialog(InhatcRecognizer cluRecognizer, ILogger<MainDialog> logger)
+        public MainDialog(InhatcRecognizer cluRecognizer, ILogger<MainDialog> logger, ChatGptService chatGptService)
             : base(nameof(MainDialog))
         {
             _cluRecognizer = cluRecognizer;
             Logger = logger;
             _departments = DepartmentInfo.LoadDepartments("Card/JsonFile/Departments.json");
+            _chatGptService = chatGptService;
 
             AddDialog(new TextPrompt(nameof(TextPrompt)));
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), new WaterfallStep[]
@@ -50,8 +53,29 @@ namespace Inhatc_ChatBot.Dialogs
 
         private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
+            var userMessage = stepContext.Context.Activity.Text?.Trim();
+            Logger.LogInformation($"User message: {userMessage}");
+
+            if (userMessage.StartsWith("/"))
+            {
+                try
+                {
+                    var chatGptMessage = userMessage.Substring(1);
+                    Logger.LogInformation($"Sending to ChatGPT: {chatGptMessage}");
+                    var chatGptResponse = await _chatGptService.GetResponseFromChatGpt(chatGptMessage);
+                    Logger.LogInformation($"Received from ChatGPT: {chatGptResponse}");
+                    await stepContext.Context.SendActivityAsync(MessageFactory.Text(chatGptResponse, chatGptResponse), cancellationToken);
+                }
+                catch (Exception ex)
+                {
+                    Logger.LogError($"Error calling ChatGPT API: {ex.Message}");
+                    await stepContext.Context.SendActivityAsync(MessageFactory.Text("ChatGPT API 요청 중 오류가 발생했습니다. 다시 시도해주세요."), cancellationToken);
+                }
+                return await stepContext.NextAsync(null, cancellationToken);
+            }
+
             var cluResult = await _cluRecognizer.RecognizeAsync<Inhatc>(stepContext.Context, cancellationToken);
-            if (cluResult.GetTopIntent().score > 0.9) {
+            if (cluResult.GetTopIntent().score > 0.8) {
                 switch (cluResult.GetTopIntent().intent) {
                     case Inhatc.Intent.인사말:
                         var helloCard = ConverterJson.makeCard("MainCard");
@@ -133,17 +157,13 @@ namespace Inhatc_ChatBot.Dialogs
                         break;
 
                     default:
-                        var didntUnderstandMessageText = $"Sorry, I didn't get that. Please try asking in a different way (intent was {cluResult.GetTopIntent().intent})";
-                        var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
-                        await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
+                        var NotFoundCard = ConverterJson.makeCard("NotFoundCard");
+                        await stepContext.Context.SendActivityAsync(NotFoundCard, cancellationToken);
                         break;
                 }
             } else {
-                var didntUnderstandMessageText = $"무슨 말인지 모르겠어요 다시 질문해 주세요";
-                var didntUnderstandMessage = MessageFactory.Text(didntUnderstandMessageText, didntUnderstandMessageText, InputHints.IgnoringInput);
-                await stepContext.Context.SendActivityAsync(didntUnderstandMessage, cancellationToken);
-                var helloCard = ConverterJson.makeCard("MainCard");
-                await stepContext.Context.SendActivityAsync(helloCard, cancellationToken);
+                var NotFoundCard = ConverterJson.makeCard("NotFoundCard");
+                await stepContext.Context.SendActivityAsync(NotFoundCard, cancellationToken);
 
             }
             return await stepContext.NextAsync(null, cancellationToken);
