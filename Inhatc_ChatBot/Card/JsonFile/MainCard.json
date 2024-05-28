@@ -56,7 +56,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "학과소개",
-                      "data": "인하공업전문대학교의 학과들을 소개해줘",
+                      "data": "학과들을 소개해줘",
                       "iconUrl": "https://ifh.cc/g/yfvlxL.png"
                     }
                   ]
@@ -73,7 +73,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "학사일정",
-                      "data": "인하공업전문대학교 학사일정 알려줘",
+                      "data": "학사일정 알려줘",
                       "iconUrl": "https://ifh.cc/g/lGF7HW.png"
                     }
                   ]
@@ -95,7 +95,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "입학안내",
-                      "data": "📋인하공업전문대학교 입학안내",
+                      "data": "입학안내",
                       "iconUrl": "https://ifh.cc/g/1NBSl4.png"
                     }
                   ]
@@ -112,7 +112,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "교내연락처",
-                      "data": "인하공업전문대학교 교내연락처 알려줘",
+                      "data": "연락처알려줘",
                       "iconUrl": "https://ifh.cc/g/CBD6a3.png"
                     }
                   ]
@@ -129,7 +129,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "캠퍼스맵",
-                      "data": "인하공업전문대학교 캠퍼스맵",
+                      "data": "캠퍼스맵보여줘",
                       "iconUrl": "https://ifh.cc/g/RlMkNp.png"
                     }
                   ]
@@ -151,7 +151,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "식당",
-                      "data": "인하공업전문대학교 식당 메뉴 알려줘",
+                      "data": "식당 메뉴 알려줘",
                       "iconUrl": "https://ifh.cc/g/DXxFwv.png"
                     }
                   ]
@@ -168,7 +168,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "공지사항",
-                      "data": "인하공업전문대학교 공지사항 알려줘",
+                      "data": "공지사항 알려줘",
                       "iconUrl": "https://ifh.cc/g/lR7SZq.png"
                     }
                   ]
@@ -185,7 +185,7 @@
                     {
                       "type": "Action.Submit",
                       "title": "수강신청",
-                      "data": "인하공업전문대학교 수강신청에 대해 알려줘",
+                      "data": "수강신청에 대해 알려줘",
                       "iconUrl": "https://ifh.cc/g/adqGp0.png"
                     }
                   ]

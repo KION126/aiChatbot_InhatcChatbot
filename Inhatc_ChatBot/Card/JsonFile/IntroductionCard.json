@@ -14,7 +14,7 @@
         {
           "type": "TextBlock",
           "text": "인하공업전문대학교 소개",
-          "wrap": true,
+          "wrap": "True",
           "weight": "Bolder",
           "size": "Large"
         }
@@ -35,12 +35,12 @@
                   "text": "교육이념🤝",
                   "weight": "Bolder",
                   "size": "Medium",
-                  "wrap": true
+                  "wrap": "True"
                 },
                 {
                   "type": "TextBlock",
                   "text": "진실하고 자주적인 지성인, 근면하고 창의적인 직업인, 유능하고 봉사적인 사회인 양성 3대 교육목표",
-                  "wrap": true
+                  "wrap": "True"
                 }
               ]
             },
@@ -65,7 +65,7 @@
         {
           "type": "Column",
           "width": "stretch",
-          "separator": true,
+          "separator": "True",
           "items": [
             {
               "type": "Container",
@@ -75,12 +75,12 @@
                   "text": "발전계획🤜",
                   "weight": "Bolder",
                   "size": "Medium",
-                  "wrap": true
+                  "wrap": "True"
                 },
                 {
                   "type": "TextBlock",
                   "text": "창의와 혁신으로 미래 고등직업교육을 선도하는 대학",
-                  "wrap": true
+                  "wrap": "True"
                 }
               ]
             },
@@ -106,7 +106,7 @@
         {
           "type": "Column",
           "width": "stretch",
-          "separator": true,
+          "separator": "True",
           "items": [
             {
               "type": "Container",
@@ -116,12 +116,12 @@
                   "text": "총장인사말👋",
                   "weight": "Bolder",
                   "size": "Medium",
-                  "wrap": true
+                  "wrap": "True"
                 },
                 {
                   "type": "TextBlock",
                   "text": "현장중심ㆍ창의인재ㆍ글로벌 선도대학",
-                  "wrap": true
+                  "wrap": "True"
                 }
               ]
             },

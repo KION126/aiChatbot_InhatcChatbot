@@ -25,6 +25,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <_ContentIncludedByDefault Remove="card\VideoCard.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="Card\JsonFile\AcademicSchedule.json" />
     <None Include="Card\JsonFile\DepartementCard\card2.json" />
     <None Include="Card\JsonFile\DepartementCard\card1.json" />

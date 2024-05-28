@@ -10,6 +10,7 @@ using Microsoft.Bot.Schema;
 using Microsoft.Extensions.Logging;
 using Inhatc_ChatBot.Card;
 using System;
+using System.Net.Mail;
 
 namespace Inhatc_ChatBot.Dialogs
 {
@@ -85,6 +86,8 @@ namespace Inhatc_ChatBot.Dialogs
                     case Inhatc.Intent.학교소개:
                         var IntroductionCard = ConverterJson.makeCard("IntroductionCard");
                         await stepContext.Context.SendActivityAsync(IntroductionCard, cancellationToken);
+                        var reply = MessageFactory.Attachment(Video.GetVideoCard().ToAttachment());
+                        await stepContext.Context.SendActivityAsync(reply, cancellationToken);
                         break;
 
                     case Inhatc.Intent.전체학과소개:
