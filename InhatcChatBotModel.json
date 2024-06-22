@@ -1,0 +1,2398 @@
+{
+    "projectFileVersion": "2022-10-01-preview",
+    "stringIndexType": "Utf16CodeUnit",
+    "metadata": {
+        "projectKind": "Conversation",
+        "settings": {
+            "confidenceThreshold": 0,
+            "normalizeCasing": false,
+            "augmentDiacritics": false
+        },
+        "projectName": "dasdws",
+        "multilingual": true,
+        "description": "",
+        "language": "ko"
+    },
+    "assets": {
+        "projectKind": "Conversation",
+        "intents": [
+            {
+                "category": "None"
+            },
+            {
+                "category": "학교소개"
+            },
+            {
+                "category": "학과소개"
+            },
+            {
+                "category": "인사말"
+            },
+            {
+                "category": "전체학과소개"
+            },
+            {
+                "category": "학사일정"
+            },
+            {
+                "category": "입학안내"
+            },
+            {
+                "category": "교내연락처"
+            },
+            {
+                "category": "캠퍼스맵"
+            },
+            {
+                "category": "식당"
+            },
+            {
+                "category": "공지사항"
+            },
+            {
+                "category": "수강신청"
+            }
+        ],
+        "entities": [
+            {
+                "category": "학과",
+                "compositionSetting": "combineComponents"
+            }
+        ],
+        "utterances": [
+            {
+                "text": "교내연락처알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "교내연락처",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "특기자",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "특별전형",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "일반전형",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "농어촌전형",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "지원자격",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "면접고사",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전형일정",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "원서접수",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "정원",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "모집정원",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "경쟁률",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전형",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "입학전형",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "편입",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "재입학",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "정시",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수시",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "교수님 번호",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "휴대폰번호",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "연락처번호",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전번",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전화번호",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전화",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "연락처",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅇㄴㅍㄹㅈㅇㄹ234ㄱㅇㅍ1ㅂ234234",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "1`23412ㅈㄷㄱ234",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "12343425234",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "원숭이",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "피아노",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "개가",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "어머나",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "알알",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "하핳하핳",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅋㅋㅋㅋ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "하하",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "이거",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "저거",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "헐",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "바나나",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅁㅌㅊㅈㄷㄹ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅗㅎㅈㄷㄱ손ㅇㄹ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅌㅍ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅈㄴ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅇ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅁㄴ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅁㄴㅍㅌㅋㅍㅎㄱㅂ",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "sdfgntyeds",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "vsdfex",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "SDAFQWER",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "백철호",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "황지홍",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "이원주",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "왕건",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "소문",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "어지러워",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "짜증나",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "병신",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "개새끼",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "씨발",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "정신나갔어?",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "거기 누구야?",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "야 너",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "어제 뭐했어",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "내일 뭐해",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "이게",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "뭐야",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "이게 뭐야",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "그리고 나서",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "그거",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "어제",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "마우스",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "키보드",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "스피커",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "마이크",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "쩝쩝",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "냠냠",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "프로젝트",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "핸드폰",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "의자",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "멍청이",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "책상",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "음료수",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "똥",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "발",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "무릎",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "어깨",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "머리",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "엉덩이",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "멍청아",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "바보야",
+                "language": "ko",
+                "intent": "None",
+                "entities": [],
+                "dataset": "Test"
+            },
+            {
+                "text": "위치",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학교위치",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학교지도",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "맵",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "캠퍼스",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "캠퍼스맵",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "지도",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수강",
+                "language": "ko",
+                "intent": "수강신청",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수강신청사이트 알려줘",
+                "language": "ko",
+                "intent": "수강신청",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수강신청 하고싶어",
+                "language": "ko",
+                "intent": "수강신청",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수강신청",
+                "language": "ko",
+                "intent": "수강신청",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "공고",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "공고 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "채용공지사항 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "채용공고 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "장학 공지사항 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "행사 공지사항 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학사 공지사항 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "최신 공지 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "공지 보여줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "게시판 보여줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "공지",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "게시판",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "공지사항 게시판으로",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "공지사항",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "공지사항 알려줘",
+                "language": "ko",
+                "intent": "공지사항",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "메뉴",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "식당",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "메뉴 뭐야",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "식당메뉴 뭐야",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "식당메뉴 알려줘",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "밥줘",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "밥 먹고싶어",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "배고파",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "밥 뭐야",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "오늘 밥 뭐나와",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "오늘의 메뉴알려줘",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "메뉴 알려줘",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "식당 메뉴 알려줘",
+                "language": "ko",
+                "intent": "식당",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "후문 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "정문 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "운동장 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "풋살경기장 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "농구장 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "테니스장 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "교육용 B-727항공기 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수준원점 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "동아리관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "항공기  실습장 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "항공기 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "다온관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "기숙사 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "생활관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "종합실습관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "11호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "10호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "9호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "평생교육원 위치알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "8호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "도서관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "7호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "6호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "5호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "4호관 위치",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "4호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "4호관이 어디야",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "3호관이 어디야",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "3호관 위치",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "3호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "2호관이 어디야",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "2호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "2호관 위치",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "1호관 위치",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "1호관이 어디야",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "1호관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "본관 위치 알려줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "지도 보여줘",
+                "language": "ko",
+                "intent": "캠퍼스맵",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학부 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "평생교육원 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "도서관 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "취업지원처 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "입학학생처 전화번호알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "기획처 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "교무처 전화번호알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "사무실 전번알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "사무실 전화번호알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학과 전번알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "과 전번 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학과 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "과 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전번알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "총장실 전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전화번호 알려줘",
+                "language": "ko",
+                "intent": "교내연락처",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전년도 입학",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "입시결과",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "전년도 입시결과 알려줘",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "모집정원알려줘",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "입학하고싶어",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "입학하는법",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "모집",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "모집요강",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "입학",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "입학안내",
+                "language": "ko",
+                "intent": "입학안내",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴정과에 대해서 알고싶어",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴정과는 뭐하는 과야",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "항운과는 뭐하는 과야",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "항운과는 무슨 과야",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "항운과에 대해서 알려줘",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "기계과",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "항운과",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴시과",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴정과",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 3
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴퓨터정보과",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴퓨터정보과에 대해서 소개해줘",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴퓨터정보과에 대해서 알려줘",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "캘린더",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "달력",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "캘린더보고싶어",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "캘린더보여줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "달력보고싶어",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "일정보고싶어",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "일정알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "달력보여줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학사일정 궁금해",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학사일정 보여줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "졸얼날짜 궁금해",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "축제날짜 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "졸업날짜 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "졸업언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "축제 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "종강 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "종강날짜 궁금해",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "종강날짜 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "개강알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "개강날짜 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "개강날짜가 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "등록날짜 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수강날짜 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "시험날짜 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수강이 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "수강날짜가 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "등록날짜가 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "시험 날짜가 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "등록이 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "시험이 언제야",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학사일정 알려줘",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학사일정이 궁금해",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학사일정",
+                "language": "ko",
+                "intent": "학사일정",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학교에 대해서 소개해줘",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "과에 대해서 소개해줘",
+                "language": "ko",
+                "intent": "전체학과소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "어떤 과가 있어?",
+                "language": "ko",
+                "intent": "전체학과소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "무슨 과가 있어?",
+                "language": "ko",
+                "intent": "전체학과소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "과가 몇개야?",
+                "language": "ko",
+                "intent": "전체학과소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "무슨학과가 있어?",
+                "language": "ko",
+                "intent": "전체학과소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "어떤학과가 있어?",
+                "language": "ko",
+                "intent": "전체학과소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학과가 몇개야?",
+                "language": "ko",
+                "intent": "전체학과소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "hi",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "Hi",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "하이",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "ㅎㅇ",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "알트야",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "첫 메뉴보여줘",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "처음으로",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "처음",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "방가방가",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "방가",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "반값습니다",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "반가워",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "안녕하세요",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "안녕",
+                "language": "ko",
+                "intent": "인사말",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "스포츠헬스케어학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "물류시스템학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "호텔경영학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "경영비서학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "관광경영학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "항공경영학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "항공운항과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "패션디잔인학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "산업디자인학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "실내건축학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "건축학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 4
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "재료공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "화학생명공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "공간정보빅데이터학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 10
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "건설환경공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "디지털마케팅공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴퓨터시스템공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "컴퓨터정보공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 8
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "정보통신공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "전자공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "전기공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "자동차공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 6
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "항공기계공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "조선기계공하과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "반도체기계정비학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "메카트로닉스공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 9
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "기계설계공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 7
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "기계공학과에 대해서 궁금해",
+                "language": "ko",
+                "intent": "학과소개",
+                "entities": [
+                    {
+                        "category": "학과",
+                        "offset": 0,
+                        "length": 5
+                    }
+                ],
+                "dataset": "Train"
+            },
+            {
+                "text": "학교가 궁금해",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "인하공업전문대학교가 궁금해",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "인하공전이 궁금해",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "인하공전은 뭐하는 학교야",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "인하공업전문대학교는 뭐하는 학교야",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "대학교 소개해줘",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "학교 소개해줘",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "인하공전에 대해서 알려줘",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            },
+            {
+                "text": "인하공업전문대학교에 대해서 알려줘",
+                "language": "ko",
+                "intent": "학교소개",
+                "entities": [],
+                "dataset": "Train"
+            }
+        ]
+    }
+}
