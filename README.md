@@ -7,7 +7,7 @@
 <br>
 
 ◤Platforms & Languages<br>
-![c#](https://img.shields.io/badge/csharp-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
+![c#](https://img.shields.io/badge/csharp-512BD4?style=for-the-badge&logo=c#&logoColor=white)
 
 ◤Tools<br>
 
