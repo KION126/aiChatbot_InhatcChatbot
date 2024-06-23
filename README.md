@@ -7,10 +7,12 @@
 <br>
 
 ◤Platforms & Languages<br>
+![visualstudio](https://img.shields.io/badge/visualstudio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
 ![c#](https://img.shields.io/badge/csharp-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![json](https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ◤Tools<br>
+![json](https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white)
 
 https://youtu.be/pj1pUCk8b_E
 
