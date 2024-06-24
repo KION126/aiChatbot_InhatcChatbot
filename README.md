@@ -7,7 +7,7 @@
 <br>
 
 ◤Platforms & Languages<br>
-![visualstudio](https://img.shields.io/badge/visualstudio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)
+![visualstudio](https://img.shields.io/badge/visualstudio-5C2D91?style=for-the-badge&logo=visualstudio&logoColor=white)<br>
 ![c#](https://img.shields.io/badge/csharp-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![json](https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white)
 
