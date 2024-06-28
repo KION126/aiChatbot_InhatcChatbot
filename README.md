@@ -26,6 +26,7 @@
 
 ◤NLP자연어처리 (CLU)<br>
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e5263c73-99d3-41e8-8d09-ae9c4ec20701"  width="400" height="241"/>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/64ca65b2-fde2-4322-b847-afcd64d96162"  width="400" height="241"/>
 
 
 https://youtu.be/pj1pUCk8b_E
