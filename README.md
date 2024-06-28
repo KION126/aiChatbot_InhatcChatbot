@@ -14,7 +14,8 @@
 ◤Tools<br>
 ![microsoftAzure](https://img.shields.io/badge/microsoftazure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)<br>
 ![microsoftBotFramework](https://img.shields.io/badge/microsoftbotframework-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)<br>
-![selenium](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![selenium](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)<br>
+![selenium](https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white)
 
 https://youtu.be/pj1pUCk8b_E
 
