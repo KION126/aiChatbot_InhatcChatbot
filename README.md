@@ -36,9 +36,6 @@
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/756e247b-6138-4c21-a409-7d13fb213b82"  width="400" height="386"/>
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/4fca3e0f-1bf0-48b7-9812-3b67c443a447"  width="400" height="324"/>
 
-◤구현영상<br>
-
-
 ◤KSCI(한국컴퓨터정보학회) 2024 학술논문대회 발표영상<br>
 [![Watch the video](https://img.youtube.com/vi/pj1pUCk8b_E/0.jpg)](https://www.youtube.com/watch?v=pj1pUCk8b_E)
 
