@@ -1,4 +1,4 @@
-# Inhatc_ChatBot
+![image](https://github.com/KION126/InhatcChatbot/assets/73977410/769a405d-4043-4389-80b9-fa55b1ad9cb4)# Inhatc_ChatBot
 
 ### Microsoft Bot Framework를 활용한 대학교 종합정보 챗봇
 * CLU를 사용하여 예시 질문사례 데이터를 학습 시켜 NLP(자연어 처리)를 구현
@@ -17,6 +17,13 @@
 ![microsoftBotFramework](https://img.shields.io/badge/microsoftbotframework-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)<br>
 ![selenium](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)<br>
 ![selenium](https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+◤Intents
+![image](https://github.com/KION126/InhatcChatbot/assets/73977410/cc96346a-0631-44d5-8cac-9e3f1a65b710)
+
+
+◤메인카드(인삿말)
+<img src="https://github.com/KION126/kinect-wpf-PreventionofDementiaMemoryCardGame/assets/73977410/4b5c04bc-116d-4137-8069-1d02b5b61e17"  width="500" height="266"/>
 
 https://youtu.be/pj1pUCk8b_E
 
