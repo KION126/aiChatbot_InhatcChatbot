@@ -21,9 +21,15 @@
 ◤Intents<br>
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/ad8ed5f7-0245-42e2-b8c4-f4e9729f7d32"  width="500" height="457"/>
 
+◤메인카드(인삿말)<br>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e0b64fad-e99a-4562-b360-a8b74272c99b"  width="479" height="461"/>
 
-◤메인카드(인삿말)
-<img src="https://github.com/KION126/kinect-wpf-PreventionofDementiaMemoryCardGame/assets/73977410/4b5c04bc-116d-4137-8069-1d02b5b61e17"  width="500" height="266"/>
+◤메인카드(인삿말)<br>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e0b64fad-e99a-4562-b360-a8b74272c99b"  width="479" height="461"/>
+
+◤NLP자연어처리 (CLU)<br>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e5263c73-99d3-41e8-8d09-ae9c4ec20701"  width="300 " height="181"/>
+
 
 https://youtu.be/pj1pUCk8b_E
 
