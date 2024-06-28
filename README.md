@@ -32,6 +32,12 @@
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e54cc7d6-693f-47ee-82fe-8d13692a0512"  width="400" height="400"/>
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/a8a9c7a5-bfe8-4dc6-a318-b42b6db821aa"  width="400" height="351"/>
 
+◤None Intent (OpenAI API)<br>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/756e247b-6138-4c21-a409-7d13fb213b82"  width="400" height="386"/>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/4fca3e0f-1bf0-48b7-9812-3b67c443a447"  width="400" height="324"/>
+
+
+
 
 https://youtu.be/pj1pUCk8b_E
 
