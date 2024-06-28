@@ -24,11 +24,8 @@
 ◤메인카드(인삿말)<br>
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e0b64fad-e99a-4562-b360-a8b74272c99b"  width="479" height="461"/>
 
-◤메인카드(인삿말)<br>
-<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e0b64fad-e99a-4562-b360-a8b74272c99b"  width="479" height="461"/>
-
 ◤NLP자연어처리 (CLU)<br>
-<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e5263c73-99d3-41e8-8d09-ae9c4ec20701"  width="300 " height="181"/>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e5263c73-99d3-41e8-8d09-ae9c4ec20701"  width="400" height="241"/>
 
 
 https://youtu.be/pj1pUCk8b_E
