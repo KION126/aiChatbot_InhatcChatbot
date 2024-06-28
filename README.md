@@ -18,8 +18,8 @@
 ![selenium](https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)<br>
 ![selenium](https://img.shields.io/badge/openai-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-◤Intents
-<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/ad8ed5f7-0245-42e2-b8c4-f4e9729f7d32"  width="755" height="690"/>
+◤Intents<br>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/ad8ed5f7-0245-42e2-b8c4-f4e9729f7d32"  width="500" height="457"/>
 
 
 ◤메인카드(인삿말)
