@@ -12,7 +12,7 @@
 ![json](https://img.shields.io/badge/json-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ◤Tools<br>
-![microsoftAzure](https://img.shields.io/badge/microsoftazure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![microsoftAzure](https://img.shields.io/badge/microsoftazure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)<br>
 ![microsoftBotFramework](https://img.shields.io/badge/microsoftbotframework-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)
 
 https://youtu.be/pj1pUCk8b_E
