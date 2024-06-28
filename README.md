@@ -13,7 +13,7 @@
 
 ◤Tools<br>
 ![microsoftAzure](https://img.shields.io/badge/microsoftazure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![microsoftBotFramework](https://img.shields.io/badge/microsoft-5E5E5E?style=for-the-badge&logo=microsoft&logoColor=white)
+![microsoftBotFramework](https://img.shields.io/badge/microsoft-5E5E5E?style=for-the-badge&logo=microsoftbotframework&logoColor=white)
 
 https://youtu.be/pj1pUCk8b_E
 
