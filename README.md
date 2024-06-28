@@ -40,6 +40,6 @@
 
 
 ◤KSCI(한국컴퓨터정보학회) 2024 학술논문대회 발표영상<br>
-[![Watch the video](https://img.youtube.com/vi/pj1pUCk8b_E.jpg)](https://www.youtube.com/watch?v=pj1pUCk8b_E)
+[![Watch the video](https://img.youtube.com/vi/pj1pUCk8b.jpg)](https://www.youtube.com/watch?v=pj1pUCk8b_E)
 
 
