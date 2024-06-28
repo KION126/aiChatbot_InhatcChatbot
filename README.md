@@ -22,11 +22,15 @@
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/ad8ed5f7-0245-42e2-b8c4-f4e9729f7d32"  width="400 " height="366"/>
 
 ◤메인카드(인삿말)<br>
-<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e0b64fad-e99a-4562-b360-a8b74272c99b"  width="479"height="461"/>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e0b64fad-e99a-4562-b360-a8b74272c99b"  width="479 " height="461"/>
 
 ◤NLP자연어처리 (CLU)<br>
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e5263c73-99d3-41e8-8d09-ae9c4ec20701"  width="400" height="241"/>
 <img src="https://github.com/KION126/InhatcChatbot/assets/73977410/64ca65b2-fde2-4322-b847-afcd64d96162"  width="400" height="203"/>
+
+◤식당메뉴 Intent (WebCrawling)<br>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/e54cc7d6-693f-47ee-82fe-8d13692a0512"  width="400" height="400"/>
+<img src="https://github.com/KION126/InhatcChatbot/assets/73977410/a8a9c7a5-bfe8-4dc6-a318-b42b6db821aa"  width="400" height="351"/>
 
 
 https://youtu.be/pj1pUCk8b_E
